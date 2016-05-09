@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB65469B1CDB954400154D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65469A1CDB954400154D73 /* AppDelegate.swift */; };
+		FB65469D1CDB954400154D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65469C1CDB954400154D73 /* ViewController.swift */; };
+		FB6546A21CDB954400154D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6546A11CDB954400154D73 /* Assets.xcassets */; };
+		FB6546AD1CDB986400154D73 /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6546AC1CDB986400154D73 /* RestAPIManager.swift */; };
+		FB6546AF1CDB9B7200154D73 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6546AE1CDB9B7200154D73 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB6546971CDB954400154D73 /* US-CAN Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US-CAN Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB65469A1CDB954400154D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB65469C1CDB954400154D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6546A11CDB954400154D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6546A61CDB954400154D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6546AC1CDB986400154D73 /* RestAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		FB6546AE1CDB9B7200154D73 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6546941CDB954400154D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB65468E1CDB954400154D73 = {
+			isa = PBXGroup;
+			children = (
+				FB6546991CDB954400154D73 /* US-CAN Exchange */,
+				FB6546981CDB954400154D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6546981CDB954400154D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6546971CDB954400154D73 /* US-CAN Exchange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6546991CDB954400154D73 /* US-CAN Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				FB65469A1CDB954400154D73 /* AppDelegate.swift */,
+				FB65469C1CDB954400154D73 /* ViewController.swift */,
+				FB6546AC1CDB986400154D73 /* RestAPIManager.swift */,
+				FB6546A11CDB954400154D73 /* Assets.xcassets */,
+				FB6546AE1CDB9B7200154D73 /* SwiftyJSON.swift */,
+				FB6546A61CDB954400154D73 /* Info.plist */,
+			);
+			path = "US-CAN Exchange";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6546961CDB954400154D73 /* US-CAN Exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6546A91CDB954400154D73 /* Build configuration list for PBXNativeTarget "US-CAN Exchange" */;
+			buildPhases = (
+				FB6546931CDB954400154D73 /* Sources */,
+				FB6546941CDB954400154D73 /* Frameworks */,
+				FB6546951CDB954400154D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "US-CAN Exchange";
+			productName = "US-CAN Exchange";
+			productReference = FB6546971CDB954400154D73 /* US-CAN Exchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB65468F1CDB954400154D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason P'ng";
+				TargetAttributes = {
+					FB6546961CDB954400154D73 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FB6546921CDB954400154D73 /* Build configuration list for PBXProject "US-CAN Exchange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB65468E1CDB954400154D73;
+			productRefGroup = FB6546981CDB954400154D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6546961CDB954400154D73 /* US-CAN Exchange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6546951CDB954400154D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6546A21CDB954400154D73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6546931CDB954400154D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB65469D1CDB954400154D73 /* ViewController.swift in Sources */,
+				FB6546AD1CDB986400154D73 /* RestAPIManager.swift in Sources */,
+				FB65469B1CDB954400154D73 /* AppDelegate.swift in Sources */,
+				FB6546AF1CDB9B7200154D73 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB6546A71CDB954400154D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6546A81CDB954400154D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6546AA1CDB954400154D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "US-CAN Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Png.US-CAN-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB6546AB1CDB954400154D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "US-CAN Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Png.US-CAN-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6546921CDB954400154D73 /* Build configuration list for PBXProject "US-CAN Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6546A71CDB954400154D73 /* Debug */,
+				FB6546A81CDB954400154D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6546A91CDB954400154D73 /* Build configuration list for PBXNativeTarget "US-CAN Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6546AA1CDB954400154D73 /* Debug */,
+				FB6546AB1CDB954400154D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB65468F1CDB954400154D73 /* Project object */;
+}
